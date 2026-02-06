@@ -40,7 +40,7 @@ async function LoadBlogList() {
   // "use cache";
   // cacheLife("hours");
   // cacheTag("blog");
-  connection()
+  await connection()
   const data = await fetchQuery(api.posts.getPosts);
 
   return (
