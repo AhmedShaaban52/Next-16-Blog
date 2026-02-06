@@ -24,6 +24,10 @@ const nextConfig: NextConfig = {
         hostname: "deafening-ladybug-392.convex.cloud",
         protocol: "https",
       },
+      {
+        hostname: "sleek-crocodile-881.eu-west-1.convex.cloud",
+        protocol: "https",
+      },
     ],
   },
 };
